@@ -1,0 +1,12 @@
+COMO FUNCIONA O GITFLOW:
+
+O Gitflow é um modelo de ramificação criado para organizar e padronizar o fluxo de trabalho em projetos que usam o Git como sistema de controle
+de versão. Ele foi proposto por Vincent Driessen e é bastante usado em equipes que seguem ciclos de desenvolvimento bem definidos 
+(por exemplo, versões planejadas e entregas periódicas).
+
+ENTENDIMENTO:
+eu entendi que o Gitflow é  um jeito organizado de trabalhar com branches no Git.
+Ele define um “mapa” de como o código vai fluindo desde a criação até chegar na produção, separando cada etapa para evitar desorganizacao.
+Por exemplo, a branch main guarda o código estável e pronto para produção, enquanto a develop concentra o que está em desenvolvimento.
+Novas funcionalidades são criadas em feature e depois juntadas no develop.
+Quando uma versão está quase pronta, usamos release para ajustes finais.
