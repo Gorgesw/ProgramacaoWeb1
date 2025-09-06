@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <table id="tabela">
+        <thead>
+            <tr class="cinza">
+                <td rowspan="2">Aluno</td>
+                <td colspan="3">Semestre 1</td>
+                <td colspan="3">Semestre 2</td>
+                <td colspan="3">Semestre 3</td>
+            </tr>
+            <tr>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+                <td>Nota 3</td>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+                <td>Nota 3</td>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+                <td>Nota 3</td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joao</td>
+                <td class="nota">4</td>
+                <td class="nota">8</td>
+                <td class="nota">5</td>
+                <td class="nota">6</td>
+                <td class="nota">7</td>
+                <td class="nota">6</td>
+                <td class="nota">10</td>
+                <td class="nota">6</td>
+                <td class="nota">7</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td class="nota">5</td>
+                <td class="nota">7</td>
+                <td class="nota">6</td>
+                <td class="nota">5</td>
+                <td class="nota">8</td>
+                <td class="nota">9</td>
+                <td class="nota">2</td>
+                <td class="nota">4</td>
+                <td class="nota">10</td>
+            </tr>
+            <tr>
+                <td>Jose</td>
+                <td class="nota">6</td>
+                <td class="nota">7</td>
+                <td class="nota">6</td>
+                <td class="nota">4</td>
+                <td class="nota">10</td>
+                <td class="nota">6</td>
+                <td class="nota">10</td>
+                <td class="nota">6</td>
+                <td class="nota">7</td>
+            </tr>
+            <tr>
+                <td>Miguel</td>
+                <td class="nota">7</td>
+                <td class="nota">6</td>
+                <td class="nota">4</td>
+                <td class="nota">8</td>
+                <td class="nota">10</td>
+                <td class="nota">8</td>
+                <td class="nota">6</td>
+                <td class="nota">6</td>
+                <td class="nota">8</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td class="nota">5</td>
+                <td class="nota">8</td>
+                <td class="nota">5</td>
+                <td class="nota">6</td>
+                <td class="nota">9</td>
+                <td class="nota">7</td>
+                <td class="nota">5</td>
+                <td class="nota">9</td>
+                <td class="nota">9</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="adicionarMedia()">Calcular Médias Por Prova</button>
+    <button onclick="adicionarMediaPorAluno()">Calcular Média por Aluno</button>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
