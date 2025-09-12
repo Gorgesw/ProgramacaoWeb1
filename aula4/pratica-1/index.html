@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="container">
+
+    <h3>Calculadora</h3>
+    
+    <section>
+        <label for="valorUm">Valor 1</label>
+        <input name="valorUm" id="valorUm" type="number"><br><br>
+
+        <label for="operador"> Selecione o Operador </label>
+        <select name="operador" id="operador">
+            <option selected value="nenhum">nenhum</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br><br>
+
+        <label for="valorDois">Valor 2</label>
+        <input name="valorDois" id="valorDois" type="number"><br><br>
+
+        <button onclick="calcula()">Calcular</button>
+
+        <div id="divResultado">
+            <label for="resultado">Resultado:</label>
+            <input id="resultado" name="resultado" type="integer" disabled>
+            <div class="alert">
+                <b>Preencha todos os campos!</b>
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

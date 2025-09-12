@@ -1,0 +1,41 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+section {
+    border: 2px solid black;
+    padding: 30px;
+}
+
+#resultado {
+    width: 80px;
+    border: 2px solid black;
+    font-weight: 700;
+    color: black;
+}
+
+#divResultado {
+    padding: 15px;
+    margin-left: 9px;
+}
+
+#divResultado input {
+    text-align: center;
+}
+
+.vazio {
+    border: 1px solid  red;
+}
+
+.alert {
+    margin-top: 7px;
+    padding: 5px;
+    color: red;
+    display: none;
+}
+
+
